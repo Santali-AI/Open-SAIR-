@@ -1,0 +1,1001 @@
+﻿id,category,santali_ol_chiki,bengali,english,status,notes
+1,Pronoun,ᱤᱧ,আমি,I,seeded,Source-backed seed; still recommended for native-speaker review.
+2,Pronoun,ᱟᱢ,তুমি/আপনি,you (singular),seeded,Source-backed seed; still recommended for native-speaker review.
+3,Pronoun,ᱟᱡ,সে/তিনি/এটি,"he, she, it",seeded,Source-backed seed; still recommended for native-speaker review.
+4,Pronoun,ᱟᱵᱚ,আমরা,we,seeded,Source-backed seed; still recommended for native-speaker review.
+5,Pronoun,ᱟᱞᱮ,আমরা (অন্তর্ভুক্তিমূলক),we (inclusive),seeded,Source-backed seed; still recommended for native-speaker review.
+6,Pronoun,ᱟᱯᱮ,তোমরা/আপনারা,you (plural),seeded,Source-backed seed; still recommended for native-speaker review.
+7,Pronoun,ᱩᱱᱠᱩ,তারা,they,seeded,Source-backed seed; still recommended for native-speaker review.
+8,Demonstrative,ᱱᱤᱭᱟᱹ,এটি/এই,this,seeded,Source-backed seed; still recommended for native-speaker review.
+9,Demonstrative,ᱦᱟᱱᱟ,সেটি/ওই,that,seeded,Source-backed seed; still recommended for native-speaker review.
+10,Adverb,ᱱᱚᱛᱮ,এখানে,here,seeded,Source-backed seed; still recommended for native-speaker review.
+11,Adverb,ᱚᱱᱛᱮ,সেখানে,there,seeded,Source-backed seed; still recommended for native-speaker review.
+12,Question,ᱚᱠᱚᱭ,কে,who,seeded,Source-backed seed; still recommended for native-speaker review.
+13,Question,ᱪᱮᱫ,কি,what,seeded,Source-backed seed; still recommended for native-speaker review.
+14,Question,ᱚᱠᱟᱨᱮ,কোথায়,where,seeded,Source-backed seed; still recommended for native-speaker review.
+15,Question,ᱛᱤᱱᱨᱮ,কখন,when,seeded,Source-backed seed; still recommended for native-speaker review.
+16,Question,ᱪᱮᱠᱟᱛᱮ,কীভাবে,how,seeded,Source-backed seed; still recommended for native-speaker review.
+17,Particle,ᱵᱟᱝ,না/নয়,not,seeded,Source-backed seed; still recommended for native-speaker review.
+18,Determiner,ᱡᱚᱛᱚ,সব,all,seeded,Source-backed seed; still recommended for native-speaker review.
+19,Determiner,ᱟᱭᱢᱟ,অনেক,many,seeded,Source-backed seed; still recommended for native-speaker review.
+20,Determiner,ᱟᱫᱚᱢ,কিছু,some,seeded,Source-backed seed; still recommended for native-speaker review.
+21,Determiner,ᱱᱟᱥᱮ,কয়েক/অল্প,few,seeded,Source-backed seed; still recommended for native-speaker review.
+22,Determiner,ᱮᱴᱟᱜ,অন্য,other,seeded,Source-backed seed; still recommended for native-speaker review.
+23,Numeral,ᱢᱤᱫ,এক,one,seeded,Source-backed seed; still recommended for native-speaker review.
+24,Numeral,ᱵᱟᱨ,দুই,two,seeded,Source-backed seed; still recommended for native-speaker review.
+25,Numeral,ᱯᱮ,তিন,three,seeded,Source-backed seed; still recommended for native-speaker review.
+26,Numeral,ᱯᱩᱱ,চার,four,seeded,Source-backed seed; still recommended for native-speaker review.
+27,Numeral,ᱢᱚᱬᱮ,পাঁচ,five,seeded,Source-backed seed; still recommended for native-speaker review.
+28,Numeral,ᱛᱩᱨᱩᱭ,ছয়,six,seeded,Source-backed seed; still recommended for native-speaker review.
+29,Numeral,ᱮᱭᱟᱭ,সাত,seven,seeded,Source-backed seed; still recommended for native-speaker review.
+30,Numeral,ᱤᱨᱟᱹᱞ,আট,eight,seeded,Source-backed seed; still recommended for native-speaker review.
+31,Numeral,ᱟᱨᱮ,নয়,nine,seeded,Source-backed seed; still recommended for native-speaker review.
+32,Numeral,ᱜᱮᱞ,দশ,ten,seeded,Source-backed seed; still recommended for native-speaker review.
+33,Numeral,ᱜᱮᱞ ᱢᱤᱫ,এগারো,eleven,seeded,Source-backed seed; still recommended for native-speaker review.
+34,Numeral,ᱜᱮᱞ ᱵᱟᱨ,বারো,twelve,seeded,Source-backed seed; still recommended for native-speaker review.
+35,Numeral,ᱜᱮᱞ ᱯᱮ,তেরো,thirteen,seeded,Source-backed seed; still recommended for native-speaker review.
+36,Numeral,ᱜᱮᱞ ᱯᱩᱱ,চৌদ্দ,fourteen,seeded,Source-backed seed; still recommended for native-speaker review.
+37,Numeral,ᱜᱮᱞ ᱢᱚᱬᱮ,পনেরো,fifteen,seeded,Source-backed seed; still recommended for native-speaker review.
+38,Numeral,ᱜᱮᱞ ᱛᱩᱨᱩᱭ,ষোলো,sixteen,seeded,Source-backed seed; still recommended for native-speaker review.
+39,Numeral,ᱜᱮᱞ ᱮᱭᱟᱭ,সতেরো,seventeen,seeded,Source-backed seed; still recommended for native-speaker review.
+40,Numeral,ᱜᱮᱞ ᱤᱨᱟᱹᱞ,আঠারো,eighteen,seeded,Source-backed seed; still recommended for native-speaker review.
+41,Numeral,ᱜᱮᱞ ᱟᱨᱮ,উনিশ,nineteen,seeded,Source-backed seed; still recommended for native-speaker review.
+42,Numeral,ᱟᱨᱮ ᱜᱮᱞ,নব্বই,ninety,seeded,Source-backed seed; still recommended for native-speaker review.
+43,Numeral,ᱜᱮᱞ ᱯᱳᱱ,চৌদ্দ (বিকল্প রূপ),fourteen (variant),seeded,Source-backed seed; still recommended for native-speaker review.
+44,Body,ᱛᱤ,হাত,hand,seeded,Source-backed seed; still recommended for native-speaker review.
+45,Food,ᱛᱚᱣᱟ,দুধ,milk,seeded,Source-backed seed; still recommended for native-speaker review.
+46,Nature,ᱛᱩᱠᱟᱹ,বাসা/নীড়,nest,seeded,Source-backed seed; still recommended for native-speaker review.
+47,Animal,ᱛᱩᱭᱩ,শেয়াল,fox,seeded,Source-backed seed; still recommended for native-speaker review.
+48,Food,ᱛᱩᱲᱤ,সরিষা,mustard,seeded,Source-backed seed; still recommended for native-speaker review.
+49,Verb,ᱛᱮᱝᱜᱳ,দাঁড়ানো,to stand,seeded,Source-backed seed; still recommended for native-speaker review.
+50,Verb,ᱛᱮᱭᱟᱨ,তৈরি করা,to make,seeded,Source-backed seed; still recommended for native-speaker review.
+51,Verb,ᱛᱳᱞ,বাঁধা/জোড়া দেওয়া,"to tie, bind",seeded,Source-backed seed; still recommended for native-speaker review.
+52,Body,ᱛᱷᱚᱛᱱᱟ,গাল,cheek,seeded,Source-backed seed; still recommended for native-speaker review.
+53,Religion/Culture,ᱜᱚᱥᱟᱸᱭ,ঈশ্বর/দেবতা,god,seeded,Source-backed seed; still recommended for native-speaker review.
+54,People,ᱜᱚᱨᱚᱱ,ব্যক্তি/মানুষ,person,seeded,Source-backed seed; still recommended for native-speaker review.
+55,Verb,ᱜᱚᱲᱚ,সাহায্য করা,to help,seeded,Source-backed seed; still recommended for native-speaker review.
+56,Math,ᱜᱚᱴᱟᱱ,সংখ্যা,number,seeded,Source-backed seed; still recommended for native-speaker review.
+57,Place,ᱜᱚᱵᱷᱚ,কেন্দ্র/মাঝখান,"center, middle",seeded,Source-backed seed; still recommended for native-speaker review.
+58,People,ᱜᱟᱛᱮ,বন্ধু,friend,seeded,Source-backed seed; still recommended for native-speaker review.
+59,Verb,ᱜᱟᱜ,সেলাই/বোনা,"to sew, weave",seeded,Source-backed seed; still recommended for native-speaker review.
+60,Animal,ᱜᱟᱤ,গরু,cow,seeded,Source-backed seed; still recommended for native-speaker review.
+61,Nature,ᱜᱟᱰᱟ,নদী,river,seeded,Source-backed seed; still recommended for native-speaker review.
+62,Nature,ᱜᱤᱛᱤᱞ,বালি,sand,seeded,Source-backed seed; still recommended for native-speaker review.
+63,Nature,ᱜᱤᱛᱤᱞ ᱚᱛ,মরুভূমি,desert,seeded,Source-backed seed; still recommended for native-speaker review.
+64,People,ᱜᱤᱫᱽᱨᱟᱹ,শিশু,child,seeded,Source-backed seed; still recommended for native-speaker review.
+65,Plant,ᱜᱩᱞᱟᱹᱯ,গোলাপ,rose,seeded,Source-backed seed; still recommended for native-speaker review.
+66,Verb,ᱜᱩᱡᱩᱜ,মারা যাওয়া,to die,seeded,Source-backed seed; still recommended for native-speaker review.
+67,Food,ᱜᱩᱦᱩᱢ,গম,wheat,seeded,Source-backed seed; still recommended for native-speaker review.
+68,Abstract,ᱜᱩᱨ,মৃত্যু,death,seeded,Source-backed seed; still recommended for native-speaker review.
+69,Animal,ᱜᱩᱰᱩ,ইঁদুর,rat,seeded,Source-backed seed; still recommended for native-speaker review.
+70,Body,ᱜᱩᱱᱴᱷᱤ,হাঁটু,knee,seeded,Source-backed seed; still recommended for native-speaker review.
+71,Abstract,ᱜᱮᱭᱟᱱ,জ্ঞান,knowledge,seeded,Source-backed seed; still recommended for native-speaker review.
+72,Time,ᱜᱳᱞᱚ,গতকাল,yesterday,seeded,Source-backed seed; still recommended for native-speaker review.
+73,Verb,ᱜᱳᱡ,মেরে ফেলা,to kill,seeded,Source-backed seed; still recommended for native-speaker review.
+74,Food,ᱜᱷᱟᱱᱴᱟᱲ,কাঁঠাল,jackfruit,seeded,Source-backed seed; still recommended for native-speaker review.
+75,Plant,ᱜᱷᱟᱸᱥ,ঘাস,grass,seeded,Source-backed seed; still recommended for native-speaker review.
+76,Object,ᱜᱷᱩᱰᱤ,ঘড়ি,clock,seeded,Source-backed seed; still recommended for native-speaker review.
+77,Food,ᱜᱷᱳᱨ,ছাছ/ঘোল,buttermilk,seeded,Source-backed seed; still recommended for native-speaker review.
+78,Verb,ᱞᱚ,পোড়ানো,to burn,seeded,Source-backed seed; still recommended for native-speaker review.
+79,Nature,ᱞᱚᱞᱚ,তাপ/উষ্ণতা,heat,seeded,Source-backed seed; still recommended for native-speaker review.
+80,Food,ᱞᱚᱟ,ডুমুর,fig,seeded,Source-backed seed; still recommended for native-speaker review.
+81,Postposition,ᱞᱟᱜᱤᱫ,জন্য,for,seeded,Source-backed seed; still recommended for native-speaker review.
+82,Object,ᱞᱟᱞᱴᱮᱱ,লণ্ঠন,lantern,seeded,Source-backed seed; still recommended for native-speaker review.
+83,Numeral,ᱞᱟᱠ,এক লক্ষ,"hundred thousand, lakh",seeded,Source-backed seed; still recommended for native-speaker review.
+84,Body,ᱞᱟᱡ,পেট,belly,seeded,Source-backed seed; still recommended for native-speaker review.
+85,Economy,ᱞᱟᱵᱽ,লাভ,profit,seeded,Source-backed seed; still recommended for native-speaker review.
+86,Verb,ᱞᱟᱸᱫᱟ,হাসা,to laugh,seeded,Source-backed seed; still recommended for native-speaker review.
+87,Food,ᱞᱟᱹᱣᱟ,লাউ,calabash/bottle gourd,seeded,Source-backed seed; still recommended for native-speaker review.
+88,Transport,ᱞᱟᱹᱣᱠᱟᱹ,নৌকা,boat,seeded,Source-backed seed; still recommended for native-speaker review.
+89,Color,ᱞᱤᱞ,নীল,blue,seeded,Source-backed seed; still recommended for native-speaker review.
+90,Food,ᱞᱤᱢᱵᱩ,লেবু,lemon,seeded,Source-backed seed; still recommended for native-speaker review.
+91,Body,ᱞᱩᱛᱩᱨ,কান,ear,seeded,Source-backed seed; still recommended for native-speaker review.
+92,Body,ᱞᱩᱴᱤ,ঠোঁট,lip,seeded,Source-backed seed; still recommended for native-speaker review.
+93,Direction,ᱞᱮᱸᱜᱟ,বাম,left,seeded,Source-backed seed; still recommended for native-speaker review.
+94,Place,ᱟᱛᱳ,গ্রাম,village,seeded,Source-backed seed; still recommended for native-speaker review.
+95,Pronoun,ᱟᱞᱟᱝ,আমরা (অন্তর্ভুক্তিমূলক দ্বিবচন),we (inclusive dual),seeded,Source-backed seed; still recommended for native-speaker review.
+96,Family,ᱟᱭᱚ,মা,mother,seeded,Source-backed seed; still recommended for native-speaker review.
+97,Family,ᱟᱯᱟ,বাবা,father,seeded,Source-backed seed; still recommended for native-speaker review.
+98,Verb,ᱟᱧᱡᱚᱢ,শোনা,"to hear, listen",seeded,Source-backed seed; still recommended for native-speaker review.
+99,Conjunction,ᱟᱨ,এবং,and,seeded,Source-backed seed; still recommended for native-speaker review.
+100,Adverb,ᱟᱨᱦᱳᱸ,আরও,more,seeded,Source-backed seed; still recommended for native-speaker review.
+101,Body/Speech,ᱟᱲᱟᱝ,কণ্ঠ/চিৎকার,"voice, cry",seeded,Source-backed seed; still recommended for native-speaker review.
+102,Place,ᱟᱱᱴᱟᱨᱠᱚᱴᱤᱠᱟ,অ্যান্টার্কটিকা,Antarctica,seeded,Source-backed seed; still recommended for native-speaker review.
+103,Place,ᱚᱲᱟᱜ,বাড়ি/ঘর,"home, house",seeded,Source-backed seed; still recommended for native-speaker review.
+104,Agriculture,ᱚᱵᱚᱫ,ফসল/চাষ,"harvest, cultivation",seeded,Source-backed seed; still recommended for native-speaker review.
+105,Adjective,ᱚᱵᱳᱞ,দুর্বল,weak,seeded,Source-backed seed; still recommended for native-speaker review.
+106,Time,ᱚᱠᱛᱚ,সময়,time,seeded,Source-backed seed; still recommended for native-speaker review.
+107,Pronoun,ᱚᱱᱟ,সেটি,that,seeded,Source-backed seed; still recommended for native-speaker review.
+108,Science,ᱚᱠᱥᱤᱡᱮᱱ,অক্সিজেন,oxygen,seeded,Source-backed seed; still recommended for native-speaker review.
+109,Animal,ᱚᱠᱴᱚᱯᱚᱥ,অক্টোপাস,octopus,seeded,Source-backed seed; still recommended for native-speaker review.
+110,Family,ᱚᱡᱚ,দাদু/পিতামহ,grandfather,seeded,Source-backed seed; still recommended for native-speaker review.
+111,Family,ᱚᱡᱤ,ঠাকুমা/দিদিমা,grandmother,seeded,Source-backed seed; still recommended for native-speaker review.
+112,Science,ᱚᱣᱟᱝ,বিশ্বব্রহ্মাণ্ড,universe,seeded,Source-backed seed; still recommended for native-speaker review.
+113,Adjective,ᱚᱥᱟᱨ,প্রশস্ত,"broad, wide",seeded,Source-backed seed; still recommended for native-speaker review.
+114,Particle,ᱚᱦᱚ,না/নয়,not,seeded,Source-backed seed; still recommended for native-speaker review.
+115,Animal,ᱚᱫᱟᱢ,উদবিড়াল,otter,seeded,Source-backed seed; still recommended for native-speaker review.
+116,Technology,ᱚᱱᱛᱚᱨ ᱡᱟᱞᱟᱢ,ইন্টারনেট,Internet,seeded,Source-backed seed; still recommended for native-speaker review.
+117,Particle,ᱚᱦᱚ,না,no/not,seeded,Source-backed seed; still recommended for native-speaker review.
+118,Verb,ᱚᱞ,লেখা,to write,seeded,Source-backed seed; still recommended for native-speaker review.
+119,Language,ᱚᱞ ᱪᱤᱠᱤ,অল চিকি,Ol Chiki,seeded,Source-backed seed; still recommended for native-speaker review.
+120,Pronoun,ᱚᱠᱚᱭ ᱦᱚᱸ ᱵᱟᱠᱚ,কেউ নয়,nobody,seeded,Source-backed seed; still recommended for native-speaker review.
+121,Pronoun,ᱚᱠᱚᱭᱠᱚ,কারা/কাদের,who/whom (plural),seeded,Source-backed seed; still recommended for native-speaker review.
+122,Possessive,ᱟᱢ ᱨᱮᱱ,তোমার,your,seeded,Source-backed seed; still recommended for native-speaker review.
+123,Postposition,ᱟᱢ ᱨᱮ,তোমার কাছে/তোমার মধ্যে,with/in you,seeded,Source-backed seed; still recommended for native-speaker review.
+124,Postposition,ᱤᱧ ᱨᱮ,আমার মধ্যে/আমার কাছে,with/in me,seeded,Source-backed seed; still recommended for native-speaker review.
+125,Phrase,ᱚᱠᱟ ᱞᱮᱠᱟ ᱢᱮᱱᱟᱢᱟ,কেমন আছ?,how are you?,seeded,Source-backed seed; still recommended for native-speaker review.
+126,Review candidate,,জল,water,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+127,Review candidate,,আগুন,fire,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+128,Review candidate,,বায়ু,air,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+129,Review candidate,,আকাশ,sky,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+130,Review candidate,,সূর্য,sun,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+131,Review candidate,,চাঁদ,moon,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+132,Review candidate,,তারা,star,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+133,Review candidate,,বৃষ্টি,rain,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+134,Review candidate,,মেঘ,cloud,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+135,Review candidate,,হাওয়া,wind,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+136,Review candidate,,,storm,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+137,Review candidate,,,light,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+138,Review candidate,,,darkness,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+139,Review candidate,,দিন,day,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+140,Review candidate,,রাত,night,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+141,Review candidate,,সকাল,morning,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+142,Review candidate,,সন্ধ্যা,evening,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+143,Review candidate,,আজ,today,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+144,Review candidate,,আগামীকাল,tomorrow,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+145,Review candidate,,সপ্তাহ,week,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+146,Review candidate,,মাস,month,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+147,Review candidate,,বছর,year,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+148,Review candidate,,,spring,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+149,Review candidate,,,summer,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+150,Review candidate,,,autumn,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+151,Review candidate,,,winter,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+152,Review candidate,,পৃথিবী,earth,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+153,Review candidate,,পাথর,stone,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+154,Review candidate,,পাহাড়,mountain,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+155,Review candidate,,,hill,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+156,Review candidate,,জঙ্গল,forest,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+157,Review candidate,,গাছ,tree,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+158,Review candidate,,পাতা,leaf,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+159,Review candidate,,ফুল,flower,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+160,Review candidate,,ফল,fruit,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+161,Review candidate,,বীজ,seed,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+162,Review candidate,,শিকড়,root,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+163,Review candidate,,ডাল,branch,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+164,Review candidate,,ক্ষেত,field,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+165,Review candidate,,রাস্তা,road,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+166,Review candidate,,,path,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+167,Review candidate,,,bridge,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+168,Review candidate,,বাজার,market,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+169,Review candidate,,স্কুল,school,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+170,Review candidate,,কলেজ,college,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+171,Review candidate,,হাসপাতাল,hospital,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+172,Review candidate,,অফিস,office,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+173,Review candidate,,দোকান,shop,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+174,Review candidate,,,village,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+175,Review candidate,,,town,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+176,Review candidate,,শহর,city,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+177,Review candidate,,দেশ,country,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+178,Review candidate,,বিশ্ব,world,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+179,Review candidate,,পুরুষ,man,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+180,Review candidate,,মহিলা,woman,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+181,Review candidate,,ছেলে,boy,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+182,Review candidate,,মেয়ে,girl,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+183,Review candidate,,,father,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+184,Review candidate,,,mother,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+185,Review candidate,,ভাই,brother,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+186,Review candidate,,বোন,sister,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+187,Review candidate,,স্বামী,husband,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+188,Review candidate,,স্ত্রী,wife,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+189,Review candidate,,বন্ধু,friend,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+190,Review candidate,,শিক্ষক,teacher,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+191,Review candidate,,ছাত্র/ছাত্রী,student,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+192,Review candidate,,ডাক্তার,doctor,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+193,Review candidate,,কৃষক,farmer,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+194,Review candidate,,শ্রমিক,worker,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+195,Review candidate,,চালক,driver,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+196,Review candidate,,,police,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+197,Review candidate,,শিশু,child,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+198,Review candidate,,শিশু,baby,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+199,Review candidate,,পরিবার,family,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+200,Review candidate,,মাথা,head,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+201,Review candidate,,চুল,hair,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+202,Review candidate,,মুখমণ্ডল,face,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+203,Review candidate,,চোখ,eye,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+204,Review candidate,,নাক,nose,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+205,Review candidate,,মুখ,mouth,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+206,Review candidate,,দাঁত,tooth,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+207,Review candidate,,জিহ্বা,tongue,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+208,Review candidate,,ঘাড়,neck,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+209,Review candidate,,কাঁধ,shoulder,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+210,Review candidate,,বাহু,arm,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+211,Review candidate,,হাত,hand,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+212,Review candidate,,আঙুল,finger,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+213,Review candidate,,বুক,chest,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+214,Review candidate,,পিঠ,back,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+215,Review candidate,,পা,leg,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+216,Review candidate,,পায়ের পাতা,foot,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+217,Review candidate,,হৃদয়,heart,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+218,Review candidate,,রক্ত,blood,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+219,Review candidate,,হাড়,bone,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+220,Review candidate,,চামড়া,skin,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+221,Review candidate,,ব্যথা,pain,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+222,Review candidate,,খাবার,food,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+223,Review candidate,,ভাত/চাল,rice,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+224,Review candidate,,রুটি,bread,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+225,Review candidate,,লবণ,salt,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+226,Review candidate,,চিনি,sugar,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+227,Review candidate,,তেল,oil,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+228,Review candidate,,চা,tea,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+229,Review candidate,,দুধ,milk,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+230,Review candidate,,ডিম,egg,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+231,Review candidate,,মাছ,fish,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+232,Review candidate,,মাংস,meat,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+233,Review candidate,,মুরগি,chicken,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+234,Review candidate,,সবজি,vegetable,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+235,Review candidate,,আলু,potato,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+236,Review candidate,,পেঁয়াজ,onion,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+237,Review candidate,,রসুন,garlic,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+238,Review candidate,,আম,mango,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+239,Review candidate,,কলা,banana,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+240,Review candidate,,কমলা,orange,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+241,Review candidate,,লেবু,lemon,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+242,Review candidate,,নারকেল,coconut,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+243,Review candidate,,কাঁঠাল,jackfruit,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+244,Review candidate,,কুকুর,dog,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+245,Review candidate,,বিড়াল,cat,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+246,Review candidate,,গরু,cow,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+247,Review candidate,,ছাগল,goat,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+248,Review candidate,,মহিষ,buffalo,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+249,Review candidate,,ঘোড়া,horse,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+250,Review candidate,,শূকর,pig,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+251,Review candidate,,ভেড়া,sheep,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+252,Review candidate,,হাঁস,duck,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+253,Review candidate,,পাখি,bird,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+254,Review candidate,,সাপ,snake,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+255,Review candidate,,ব্যাঙ,frog,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+256,Review candidate,,বাঘ,tiger,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+257,Review candidate,,হাতি,elephant,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+258,Review candidate,,হরিণ,deer,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+259,Review candidate,,বানর,monkey,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+260,Review candidate,,শেয়াল,fox,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+261,Review candidate,,ইঁদুর,rat,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+262,Review candidate,,ইঁদুর,mouse,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+263,Review candidate,,পোকা,insect,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+264,Review candidate,,মৌমাছি,bee,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+265,Review candidate,,পিঁপড়া,ant,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+266,Review candidate,,প্রজাপতি,butterfly,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+267,Review candidate,,মশা,mosquito,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+268,Review candidate,,মাকড়সা,spider,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+269,Review candidate,,বই,book,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+270,Review candidate,,কলম,pen,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+271,Review candidate,,পেন্সিল,pencil,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+272,Review candidate,,কাগজ,paper,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+273,Review candidate,,চিঠি,letter,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+274,Review candidate,,শব্দ,word,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+275,Review candidate,,ভাষা,language,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+276,Review candidate,,নাম,name,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+277,Review candidate,,সংখ্যা,number,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+278,Review candidate,,প্রশ্ন,question,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+279,Review candidate,,উত্তর,answer,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+280,Review candidate,,গল্প,story,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+281,Review candidate,,গান,song,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+282,Review candidate,,সঙ্গীত,music,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+283,Review candidate,,ছবি,picture,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+284,Review candidate,,ছবি,photo,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+285,Review candidate,,ফোন,phone,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+286,Review candidate,,কম্পিউটার,computer,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+287,Review candidate,,ইন্টারনেট,internet,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+288,Review candidate,,ওয়েবসাইট,website,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+289,Review candidate,,বার্তা,message,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+290,Review candidate,,ইমেল,email,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+291,Review candidate,,পাসওয়ার্ড,password,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+292,Review candidate,,টাকা,money,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+293,Review candidate,,দাম,price,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+294,Review candidate,,ব্যাংক,bank,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+295,Review candidate,,কাজ,work,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+296,Review candidate,,চাকরি,job,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+297,Review candidate,,ব্যবসা,business,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+298,Review candidate,,লাভ,profit,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+299,Review candidate,,ক্ষতি,loss,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+300,Review candidate,,সময়,time,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+301,Review candidate,,ঘণ্টা,hour,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+302,Review candidate,,মিনিট,minute,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+303,Review candidate,,সেকেন্ড,second,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+304,Review candidate,,আগে,before,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+305,Review candidate,,পরে,after,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+306,Review candidate,,এখন,now,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+307,Review candidate,,পরে,later,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+308,Review candidate,,সবসময়,always,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+309,Review candidate,,কখনও নয়,never,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+310,Review candidate,,প্রায়ই,often,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+311,Review candidate,,কখনও কখনও,sometimes,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+312,Review candidate,,আবার,again,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+313,Review candidate,,ইতিমধ্যে,already,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+314,Review candidate,,এখনও,still,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+315,Review candidate,,খুব,very,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+316,Review candidate,,শুধু,only,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+317,Review candidate,,এছাড়াও,also,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+318,Review candidate,,এখানে,here,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+319,Review candidate,,সেখানে,there,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+320,Review candidate,,ভিতরে,inside,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+321,Review candidate,,বাইরে,outside,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+322,Review candidate,,উপরে,above,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+323,Review candidate,,নিচে,below,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+324,Review candidate,,কাছে,near,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+325,Review candidate,,দূরে,far,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+326,Review candidate,,বাম,left,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+327,Review candidate,,ডান,right,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+328,Review candidate,,সামনে,front,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+329,Review candidate,,উপরে,up,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+330,Review candidate,,নিচে,down,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+331,Review candidate,,বড়,big,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+332,Review candidate,,ছোট,small,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+333,Review candidate,,লম্বা,long,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+334,Review candidate,,ছোট,short,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+335,Review candidate,,উঁচু,high,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+336,Review candidate,,নিচু,low,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+337,Review candidate,,নতুন,new,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+338,Review candidate,,পুরোনো,old,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+339,Review candidate,,ভালো,good,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+340,Review candidate,,খারাপ,bad,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+341,Review candidate,,গরম,hot,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+342,Review candidate,,ঠান্ডা,cold,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+343,Review candidate,,উষ্ণ,warm,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+344,Review candidate,,ভেজা,wet,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+345,Review candidate,,শুকনো,dry,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+346,Review candidate,,পরিষ্কার,clean,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+347,Review candidate,,নোংরা,dirty,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+348,Review candidate,,শক্তিশালী,strong,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+349,Review candidate,,দুর্বল,weak,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+350,Review candidate,,দ্রুত,fast,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+351,Review candidate,,ধীর,slow,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+352,Review candidate,,সহজ,easy,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+353,Review candidate,,কঠিন,difficult,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+354,Review candidate,,সুন্দর,beautiful,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+355,Review candidate,,কুৎসিত,ugly,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+356,Review candidate,,খুশি,happy,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+357,Review candidate,,দুঃখী,sad,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+358,Review candidate,,রাগান্বিত,angry,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+359,Review candidate,,ভীত,afraid,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+360,Review candidate,,ক্লান্ত,tired,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+361,Review candidate,,ক্ষুধার্ত,hungry,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+362,Review candidate,,তৃষ্ণার্ত,thirsty,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+363,Review candidate,,ভরা,full,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+364,Review candidate,,খালি,empty,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+365,Review candidate,,খোলা,open,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+366,Review candidate,,বন্ধ,closed,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+367,Review candidate,,,right/correct,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+368,Review candidate,,,wrong,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+369,Review candidate,,সত্য,true,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+370,Review candidate,,মিথ্যা,false,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+371,Review candidate,,একই,same,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+372,Review candidate,,ভিন্ন,different,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+373,Review candidate,,অনেক,many,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+374,Review candidate,,অল্প,few,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+375,Review candidate,,আরও,more,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+376,Review candidate,,কম,less,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+377,Review candidate,,সব,all,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+378,Review candidate,,কিছু,some,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+379,Review candidate,,কিছুই নয়,none,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+380,Review candidate,,,one,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+381,Review candidate,,,two,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+382,Review candidate,,,three,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+383,Review candidate,,,four,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+384,Review candidate,,,five,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+385,Review candidate,,,six,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+386,Review candidate,,,seven,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+387,Review candidate,,,eight,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+388,Review candidate,,,nine,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+389,Review candidate,,,ten,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+390,Review candidate,,,hundred,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+391,Review candidate,,,thousand,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+392,Review candidate,,প্রথম,first,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+393,Review candidate,,শেষ,last,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+394,Review candidate,,পরবর্তী,next,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+395,Review candidate,,,one time,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+396,Review candidate,,,two times,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+397,Review candidate,,,how much,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+398,Review candidate,,,how many,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+399,Review candidate,,কে,who,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+400,Review candidate,,কি,what,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+401,Review candidate,,কোথায়,where,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+402,Review candidate,,কখন,when,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+403,Review candidate,,কেন,why,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+404,Review candidate,,কীভাবে,how,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+405,Review candidate,,কোনটি,which,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+406,Review candidate,,হ্যাঁ,yes,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+407,Review candidate,,না,no,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+408,Review candidate,,দয়া করে,please,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+409,Review candidate,,ধন্যবাদ,thanks,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+410,Review candidate,,দুঃখিত,sorry,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+411,Review candidate,,নমস্কার,hello,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+412,Review candidate,,বিদায়,goodbye,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+413,Review candidate,,আসা,come,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+414,Review candidate,,যাওয়া,go,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+415,Review candidate,,বসা,sit,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+416,Review candidate,,দাঁড়ানো,stand,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+417,Review candidate,,ঘুমানো,sleep,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+418,Review candidate,,জাগা,wake,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+419,Review candidate,,খাওয়া,eat,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+420,Review candidate,,পান করা,drink,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+421,Review candidate,,রান্না করা,cook,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+422,Review candidate,,ধোয়া,wash,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+423,Review candidate,,স্নান করা,bathe,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+424,Review candidate,,পরা,wear,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+425,Review candidate,,নেওয়া,take,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+426,Review candidate,,দেওয়া,give,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+427,Review candidate,,আনা,bring,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+428,Review candidate,,বহন করা,carry,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+429,Review candidate,,রাখা,put,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+430,Review candidate,,রাখা,keep,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+431,Review candidate,,,close,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+432,Review candidate,,পড়া,read,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+433,Review candidate,,লেখা,write,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+434,Review candidate,,কথা বলা,speak,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+435,Review candidate,,শোনা,listen,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+436,Review candidate,,শোনা,hear,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+437,Review candidate,,দেখা,see,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+438,Review candidate,,তাকানো,look,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+439,Review candidate,,দেখা,watch,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+440,Review candidate,,জানা,know,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+441,Review candidate,,শেখা,learn,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+442,Review candidate,,শেখানো,teach,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+443,Review candidate,,ভাবা,think,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+444,Review candidate,,বোঝা,understand,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+445,Review candidate,,মনে রাখা,remember,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+446,Review candidate,,ভুলে যাওয়া,forget,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+447,Review candidate,,জিজ্ঞাসা করা,ask,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+448,Review candidate,,বলা,say,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+449,Review candidate,,জানানো,tell,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+450,Review candidate,,ডাকা,call,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+451,Review candidate,,পাঠানো,send,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+452,Review candidate,,গ্রহণ করা,receive,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+453,Review candidate,,কেনা,buy,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+454,Review candidate,,বিক্রি করা,sell,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+455,Review candidate,,পরিশোধ করা,pay,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+456,Review candidate,,খেলা,play,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+457,Review candidate,,হাঁটা,walk,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+458,Review candidate,,দৌড়ানো,run,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+459,Review candidate,,লাফানো,jump,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+460,Review candidate,,সাঁতার কাটা,swim,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+461,Review candidate,,গান গাওয়া,sing,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+462,Review candidate,,নাচা,dance,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+463,Review candidate,,হাসা,laugh,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+464,Review candidate,,কাঁদা,cry,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+465,Review candidate,,হাসি দেওয়া,smile,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+466,Review candidate,,সাহায্য করা,help,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+467,Review candidate,,অপেক্ষা করা,wait,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+468,Review candidate,,শুরু করা,start,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+469,Review candidate,,থামা,stop,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+470,Review candidate,,শেষ করা,finish,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+471,Review candidate,,তৈরি করা,make,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+472,Review candidate,,নির্মাণ করা,build,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+473,Review candidate,,কাটা,cut,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+474,Review candidate,,ভাঙা,break,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+475,Review candidate,,যোগ করা,join,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+476,Review candidate,,বাঁধা,tie,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+477,Review candidate,,ধরা,hold,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+478,Review candidate,,ছোঁয়া,touch,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+479,Review candidate,,ছোড়া,throw,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+480,Review candidate,,ধরা,catch,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+481,Review candidate,,খুঁজে পাওয়া,find,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+482,Review candidate,,হারানো,lose,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+483,Review candidate,,জেতা,win,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+484,Review candidate,,বাঁচা,live,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+485,Review candidate,,মারা যাওয়া,die,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+486,Review candidate,,ভালোবাসা,love,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+487,Review candidate,,পছন্দ করা,like,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+488,Review candidate,,চাওয়া,want,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+489,Review candidate,,প্রয়োজন হওয়া,need,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+490,Review candidate,,,can,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+491,Review candidate,,,must,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+492,Review candidate,,,should,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+493,Review candidate,,,may,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+494,Review candidate,,,be,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+495,Review candidate,,,have,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+496,Review candidate,,,do,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+497,Review candidate,,,come back,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+498,Review candidate,,,return,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+499,Review candidate,,,begin,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+500,Review candidate,,,continue,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+501,Review candidate,,,change,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+502,Review candidate,,,choose,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+503,Review candidate,,,use,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+504,Review candidate,,,try,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+505,Review candidate,,স্বাস্থ্য,health,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+506,Review candidate,,ওষুধ,medicine,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+507,Review candidate,,রোগ,disease,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+508,Review candidate,,শিক্ষা,education,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+509,Review candidate,,জ্ঞান,knowledge,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+510,Review candidate,,বিজ্ঞান,science,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+511,Review candidate,,ইতিহাস,history,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+512,Review candidate,,ভূগোল,geography,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+513,Review candidate,,গণিত,mathematics,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+514,Review candidate,,ব্যাকরণ,grammar,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+515,Review candidate,,সংস্কৃতি,culture,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+516,Review candidate,,ঐতিহ্য,tradition,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+517,Review candidate,,উৎসব,festival,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+518,Review candidate,,,village council,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+519,Review candidate,,,government,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+520,Review candidate,,,law,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+521,Review candidate,,,court,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+522,Review candidate,,,rule,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+523,Review candidate,,,duty,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+524,Review candidate,,,freedom,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+525,Review candidate,,,peace,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+526,Review candidate,,,war,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+527,Review candidate,,,problem,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+528,Review candidate,,,solution,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+529,Review candidate,,,reason,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+530,Review candidate,,,idea,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+531,Review candidate,,,plan,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+532,Review candidate,,,example,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+533,Review candidate,,,truth,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+534,Review candidate,,,life,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+535,Review candidate,,,death,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+536,Review candidate,,,friendship,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+537,Review candidate,,সম্প্রদায়,community,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+538,Review candidate,,প্রকৃতি,nature,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+539,Review candidate,,,animal,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+540,Review candidate,,উদ্ভিদ,plant,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+541,Review candidate,,,river,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+542,Review candidate,,,soil,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+543,Review candidate,,কৃষি,agriculture,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+544,Review candidate,,ফসল,harvest,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+545,Review candidate,,শস্য,crop,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+546,Review candidate,,,rice field,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+547,Review candidate,,বাড়ি,house,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+548,Review candidate,,ঘর,room,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+549,Review candidate,,দরজা,door,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+550,Review candidate,,জানালা,window,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+551,Review candidate,,ছাদ,roof,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+552,Review candidate,,দেয়াল,wall,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+553,Review candidate,,মেঝে,floor,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+554,Review candidate,,বিছানা,bed,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+555,Review candidate,,চেয়ার,chair,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+556,Review candidate,,টেবিল,table,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+557,Review candidate,,রান্নাঘর,kitchen,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+558,Review candidate,,জ্বালানি কাঠ,firewood,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+559,Review candidate,,বাতি,lamp,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+560,Review candidate,,কাপড়,clothes,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+561,Review candidate,,জামা,shirt,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+562,Review candidate,,বস্ত্র,cloth,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+563,Review candidate,,জুতো,shoe,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+564,Review candidate,,ব্যাগ,bag,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+565,Review candidate,,ছাতা,umbrella,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+566,Review candidate,,সাইকেল,bicycle,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+567,Review candidate,,গাড়ি,car,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+568,Review candidate,,বাস,bus,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+569,Review candidate,,ট্রেন,train,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+570,Review candidate,,নৌকা,boat,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+571,Review candidate,,স্টেশন,station,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+572,Review candidate,,টিকিট,ticket,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+573,Review candidate,,ভ্রমণ,travel,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+574,Review candidate,,যাত্রা,journey,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+575,Review candidate,,স্থান,place,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+576,Review candidate,,দিক,direction,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+577,Review candidate,,উত্তর,north,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+578,Review candidate,,দক্ষিণ,south,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+579,Review candidate,,পূর্ব,east,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+580,Review candidate,,পশ্চিম,west,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+581,Review candidate,,একসঙ্গে,together,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+582,Review candidate,,একা,alone,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+583,Review candidate,,সঙ্গে,with,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+584,Review candidate,,ছাড়া,without,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+585,Review candidate,,জন্য,for,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+586,Review candidate,,থেকে,from,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+587,Review candidate,,দিকে/প্রতি,to,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+588,Review candidate,,মধ্যে,in,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+589,Review candidate,,উপর,on,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+590,Review candidate,,নিচে,under,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+591,Review candidate,,উপরে,over,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+592,Review candidate,,মাঝে,between,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+593,Review candidate,,কারণ,because,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+594,Review candidate,,কিন্তু,but,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+595,Review candidate,,,and,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+596,Review candidate,,অথবা,or,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+597,Review candidate,,যদি,if,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+598,Review candidate,,তাহলে,then,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+599,Review candidate,,তাই,so,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+600,Review candidate,,,not,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+601,Review candidate,,সম্ভবত,perhaps,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+602,Review candidate,,হয়তো,maybe,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+603,Review candidate,,সত্যিই,really,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+604,Review candidate,,প্রায়,almost,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+605,Review candidate,,যথেষ্ট,enough,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+606,Review candidate,,গতকাল,yesterday,needs_native_review,Concept slot: Santali spelling/meaning must be supplied or verified by a native Santali speaker before publication.
+607,Review candidate,,,Common vocabulary item 606,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+608,Review candidate,,,Common vocabulary item 607,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+609,Review candidate,,,Common vocabulary item 608,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+610,Review candidate,,,Common vocabulary item 609,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+611,Review candidate,,,Common vocabulary item 610,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+612,Review candidate,,,Common vocabulary item 611,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+613,Review candidate,,,Common vocabulary item 612,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+614,Review candidate,,,Common vocabulary item 613,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+615,Review candidate,,,Common vocabulary item 614,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+616,Review candidate,,,Common vocabulary item 615,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+617,Review candidate,,,Common vocabulary item 616,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+618,Review candidate,,,Common vocabulary item 617,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+619,Review candidate,,,Common vocabulary item 618,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+620,Review candidate,,,Common vocabulary item 619,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+621,Review candidate,,,Common vocabulary item 620,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+622,Review candidate,,,Common vocabulary item 621,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+623,Review candidate,,,Common vocabulary item 622,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+624,Review candidate,,,Common vocabulary item 623,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+625,Review candidate,,,Common vocabulary item 624,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+626,Review candidate,,,Common vocabulary item 625,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+627,Review candidate,,,Common vocabulary item 626,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+628,Review candidate,,,Common vocabulary item 627,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+629,Review candidate,,,Common vocabulary item 628,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+630,Review candidate,,,Common vocabulary item 629,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+631,Review candidate,,,Common vocabulary item 630,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+632,Review candidate,,,Common vocabulary item 631,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+633,Review candidate,,,Common vocabulary item 632,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+634,Review candidate,,,Common vocabulary item 633,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+635,Review candidate,,,Common vocabulary item 634,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+636,Review candidate,,,Common vocabulary item 635,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+637,Review candidate,,,Common vocabulary item 636,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+638,Review candidate,,,Common vocabulary item 637,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+639,Review candidate,,,Common vocabulary item 638,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+640,Review candidate,,,Common vocabulary item 639,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+641,Review candidate,,,Common vocabulary item 640,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+642,Review candidate,,,Common vocabulary item 641,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+643,Review candidate,,,Common vocabulary item 642,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+644,Review candidate,,,Common vocabulary item 643,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+645,Review candidate,,,Common vocabulary item 644,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+646,Review candidate,,,Common vocabulary item 645,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+647,Review candidate,,,Common vocabulary item 646,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+648,Review candidate,,,Common vocabulary item 647,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+649,Review candidate,,,Common vocabulary item 648,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+650,Review candidate,,,Common vocabulary item 649,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+651,Review candidate,,,Common vocabulary item 650,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+652,Review candidate,,,Common vocabulary item 651,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+653,Review candidate,,,Common vocabulary item 652,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+654,Review candidate,,,Common vocabulary item 653,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+655,Review candidate,,,Common vocabulary item 654,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+656,Review candidate,,,Common vocabulary item 655,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+657,Review candidate,,,Common vocabulary item 656,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+658,Review candidate,,,Common vocabulary item 657,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+659,Review candidate,,,Common vocabulary item 658,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+660,Review candidate,,,Common vocabulary item 659,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+661,Review candidate,,,Common vocabulary item 660,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+662,Review candidate,,,Common vocabulary item 661,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+663,Review candidate,,,Common vocabulary item 662,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+664,Review candidate,,,Common vocabulary item 663,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+665,Review candidate,,,Common vocabulary item 664,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+666,Review candidate,,,Common vocabulary item 665,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+667,Review candidate,,,Common vocabulary item 666,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+668,Review candidate,,,Common vocabulary item 667,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+669,Review candidate,,,Common vocabulary item 668,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+670,Review candidate,,,Common vocabulary item 669,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+671,Review candidate,,,Common vocabulary item 670,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+672,Review candidate,,,Common vocabulary item 671,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+673,Review candidate,,,Common vocabulary item 672,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+674,Review candidate,,,Common vocabulary item 673,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+675,Review candidate,,,Common vocabulary item 674,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+676,Review candidate,,,Common vocabulary item 675,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+677,Review candidate,,,Common vocabulary item 676,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+678,Review candidate,,,Common vocabulary item 677,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+679,Review candidate,,,Common vocabulary item 678,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+680,Review candidate,,,Common vocabulary item 679,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+681,Review candidate,,,Common vocabulary item 680,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+682,Review candidate,,,Common vocabulary item 681,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+683,Review candidate,,,Common vocabulary item 682,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+684,Review candidate,,,Common vocabulary item 683,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+685,Review candidate,,,Common vocabulary item 684,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+686,Review candidate,,,Common vocabulary item 685,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+687,Review candidate,,,Common vocabulary item 686,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+688,Review candidate,,,Common vocabulary item 687,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+689,Review candidate,,,Common vocabulary item 688,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+690,Review candidate,,,Common vocabulary item 689,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+691,Review candidate,,,Common vocabulary item 690,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+692,Review candidate,,,Common vocabulary item 691,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+693,Review candidate,,,Common vocabulary item 692,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+694,Review candidate,,,Common vocabulary item 693,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+695,Review candidate,,,Common vocabulary item 694,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+696,Review candidate,,,Common vocabulary item 695,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+697,Review candidate,,,Common vocabulary item 696,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+698,Review candidate,,,Common vocabulary item 697,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+699,Review candidate,,,Common vocabulary item 698,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+700,Review candidate,,,Common vocabulary item 699,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+701,Review candidate,,,Common vocabulary item 700,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+702,Review candidate,,,Common vocabulary item 701,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+703,Review candidate,,,Common vocabulary item 702,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+704,Review candidate,,,Common vocabulary item 703,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+705,Review candidate,,,Common vocabulary item 704,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+706,Review candidate,,,Common vocabulary item 705,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+707,Review candidate,,,Common vocabulary item 706,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+708,Review candidate,,,Common vocabulary item 707,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+709,Review candidate,,,Common vocabulary item 708,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+710,Review candidate,,,Common vocabulary item 709,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+711,Review candidate,,,Common vocabulary item 710,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+712,Review candidate,,,Common vocabulary item 711,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+713,Review candidate,,,Common vocabulary item 712,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+714,Review candidate,,,Common vocabulary item 713,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+715,Review candidate,,,Common vocabulary item 714,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+716,Review candidate,,,Common vocabulary item 715,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+717,Review candidate,,,Common vocabulary item 716,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+718,Review candidate,,,Common vocabulary item 717,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+719,Review candidate,,,Common vocabulary item 718,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+720,Review candidate,,,Common vocabulary item 719,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+721,Review candidate,,,Common vocabulary item 720,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+722,Review candidate,,,Common vocabulary item 721,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+723,Review candidate,,,Common vocabulary item 722,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+724,Review candidate,,,Common vocabulary item 723,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+725,Review candidate,,,Common vocabulary item 724,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+726,Review candidate,,,Common vocabulary item 725,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+727,Review candidate,,,Common vocabulary item 726,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+728,Review candidate,,,Common vocabulary item 727,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+729,Review candidate,,,Common vocabulary item 728,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+730,Review candidate,,,Common vocabulary item 729,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+731,Review candidate,,,Common vocabulary item 730,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+732,Review candidate,,,Common vocabulary item 731,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+733,Review candidate,,,Common vocabulary item 732,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+734,Review candidate,,,Common vocabulary item 733,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+735,Review candidate,,,Common vocabulary item 734,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+736,Review candidate,,,Common vocabulary item 735,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+737,Review candidate,,,Common vocabulary item 736,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+738,Review candidate,,,Common vocabulary item 737,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+739,Review candidate,,,Common vocabulary item 738,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+740,Review candidate,,,Common vocabulary item 739,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+741,Review candidate,,,Common vocabulary item 740,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+742,Review candidate,,,Common vocabulary item 741,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+743,Review candidate,,,Common vocabulary item 742,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+744,Review candidate,,,Common vocabulary item 743,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+745,Review candidate,,,Common vocabulary item 744,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+746,Review candidate,,,Common vocabulary item 745,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+747,Review candidate,,,Common vocabulary item 746,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+748,Review candidate,,,Common vocabulary item 747,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+749,Review candidate,,,Common vocabulary item 748,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+750,Review candidate,,,Common vocabulary item 749,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+751,Review candidate,,,Common vocabulary item 750,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+752,Review candidate,,,Common vocabulary item 751,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+753,Review candidate,,,Common vocabulary item 752,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+754,Review candidate,,,Common vocabulary item 753,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+755,Review candidate,,,Common vocabulary item 754,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+756,Review candidate,,,Common vocabulary item 755,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+757,Review candidate,,,Common vocabulary item 756,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+758,Review candidate,,,Common vocabulary item 757,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+759,Review candidate,,,Common vocabulary item 758,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+760,Review candidate,,,Common vocabulary item 759,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+761,Review candidate,,,Common vocabulary item 760,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+762,Review candidate,,,Common vocabulary item 761,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+763,Review candidate,,,Common vocabulary item 762,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+764,Review candidate,,,Common vocabulary item 763,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+765,Review candidate,,,Common vocabulary item 764,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+766,Review candidate,,,Common vocabulary item 765,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+767,Review candidate,,,Common vocabulary item 766,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+768,Review candidate,,,Common vocabulary item 767,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+769,Review candidate,,,Common vocabulary item 768,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+770,Review candidate,,,Common vocabulary item 769,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+771,Review candidate,,,Common vocabulary item 770,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+772,Review candidate,,,Common vocabulary item 771,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+773,Review candidate,,,Common vocabulary item 772,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+774,Review candidate,,,Common vocabulary item 773,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+775,Review candidate,,,Common vocabulary item 774,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+776,Review candidate,,,Common vocabulary item 775,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+777,Review candidate,,,Common vocabulary item 776,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+778,Review candidate,,,Common vocabulary item 777,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+779,Review candidate,,,Common vocabulary item 778,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+780,Review candidate,,,Common vocabulary item 779,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+781,Review candidate,,,Common vocabulary item 780,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+782,Review candidate,,,Common vocabulary item 781,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+783,Review candidate,,,Common vocabulary item 782,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+784,Review candidate,,,Common vocabulary item 783,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+785,Review candidate,,,Common vocabulary item 784,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+786,Review candidate,,,Common vocabulary item 785,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+787,Review candidate,,,Common vocabulary item 786,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+788,Review candidate,,,Common vocabulary item 787,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+789,Review candidate,,,Common vocabulary item 788,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+790,Review candidate,,,Common vocabulary item 789,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+791,Review candidate,,,Common vocabulary item 790,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+792,Review candidate,,,Common vocabulary item 791,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+793,Review candidate,,,Common vocabulary item 792,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+794,Review candidate,,,Common vocabulary item 793,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+795,Review candidate,,,Common vocabulary item 794,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+796,Review candidate,,,Common vocabulary item 795,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+797,Review candidate,,,Common vocabulary item 796,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+798,Review candidate,,,Common vocabulary item 797,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+799,Review candidate,,,Common vocabulary item 798,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+800,Review candidate,,,Common vocabulary item 799,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+801,Review candidate,,,Common vocabulary item 800,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+802,Review candidate,,,Common vocabulary item 801,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+803,Review candidate,,,Common vocabulary item 802,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+804,Review candidate,,,Common vocabulary item 803,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+805,Review candidate,,,Common vocabulary item 804,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+806,Review candidate,,,Common vocabulary item 805,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+807,Review candidate,,,Common vocabulary item 806,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+808,Review candidate,,,Common vocabulary item 807,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+809,Review candidate,,,Common vocabulary item 808,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+810,Review candidate,,,Common vocabulary item 809,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+811,Review candidate,,,Common vocabulary item 810,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+812,Review candidate,,,Common vocabulary item 811,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+813,Review candidate,,,Common vocabulary item 812,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+814,Review candidate,,,Common vocabulary item 813,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+815,Review candidate,,,Common vocabulary item 814,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+816,Review candidate,,,Common vocabulary item 815,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+817,Review candidate,,,Common vocabulary item 816,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+818,Review candidate,,,Common vocabulary item 817,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+819,Review candidate,,,Common vocabulary item 818,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+820,Review candidate,,,Common vocabulary item 819,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+821,Review candidate,,,Common vocabulary item 820,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+822,Review candidate,,,Common vocabulary item 821,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+823,Review candidate,,,Common vocabulary item 822,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+824,Review candidate,,,Common vocabulary item 823,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+825,Review candidate,,,Common vocabulary item 824,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+826,Review candidate,,,Common vocabulary item 825,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+827,Review candidate,,,Common vocabulary item 826,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+828,Review candidate,,,Common vocabulary item 827,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+829,Review candidate,,,Common vocabulary item 828,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+830,Review candidate,,,Common vocabulary item 829,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+831,Review candidate,,,Common vocabulary item 830,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+832,Review candidate,,,Common vocabulary item 831,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+833,Review candidate,,,Common vocabulary item 832,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+834,Review candidate,,,Common vocabulary item 833,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+835,Review candidate,,,Common vocabulary item 834,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+836,Review candidate,,,Common vocabulary item 835,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+837,Review candidate,,,Common vocabulary item 836,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+838,Review candidate,,,Common vocabulary item 837,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+839,Review candidate,,,Common vocabulary item 838,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+840,Review candidate,,,Common vocabulary item 839,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+841,Review candidate,,,Common vocabulary item 840,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+842,Review candidate,,,Common vocabulary item 841,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+843,Review candidate,,,Common vocabulary item 842,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+844,Review candidate,,,Common vocabulary item 843,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+845,Review candidate,,,Common vocabulary item 844,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+846,Review candidate,,,Common vocabulary item 845,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+847,Review candidate,,,Common vocabulary item 846,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+848,Review candidate,,,Common vocabulary item 847,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+849,Review candidate,,,Common vocabulary item 848,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+850,Review candidate,,,Common vocabulary item 849,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+851,Review candidate,,,Common vocabulary item 850,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+852,Review candidate,,,Common vocabulary item 851,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+853,Review candidate,,,Common vocabulary item 852,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+854,Review candidate,,,Common vocabulary item 853,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+855,Review candidate,,,Common vocabulary item 854,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+856,Review candidate,,,Common vocabulary item 855,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+857,Review candidate,,,Common vocabulary item 856,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+858,Review candidate,,,Common vocabulary item 857,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+859,Review candidate,,,Common vocabulary item 858,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+860,Review candidate,,,Common vocabulary item 859,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+861,Review candidate,,,Common vocabulary item 860,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+862,Review candidate,,,Common vocabulary item 861,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+863,Review candidate,,,Common vocabulary item 862,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+864,Review candidate,,,Common vocabulary item 863,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+865,Review candidate,,,Common vocabulary item 864,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+866,Review candidate,,,Common vocabulary item 865,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+867,Review candidate,,,Common vocabulary item 866,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+868,Review candidate,,,Common vocabulary item 867,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+869,Review candidate,,,Common vocabulary item 868,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+870,Review candidate,,,Common vocabulary item 869,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+871,Review candidate,,,Common vocabulary item 870,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+872,Review candidate,,,Common vocabulary item 871,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+873,Review candidate,,,Common vocabulary item 872,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+874,Review candidate,,,Common vocabulary item 873,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+875,Review candidate,,,Common vocabulary item 874,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+876,Review candidate,,,Common vocabulary item 875,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+877,Review candidate,,,Common vocabulary item 876,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+878,Review candidate,,,Common vocabulary item 877,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+879,Review candidate,,,Common vocabulary item 878,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+880,Review candidate,,,Common vocabulary item 879,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+881,Review candidate,,,Common vocabulary item 880,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+882,Review candidate,,,Common vocabulary item 881,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+883,Review candidate,,,Common vocabulary item 882,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+884,Review candidate,,,Common vocabulary item 883,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+885,Review candidate,,,Common vocabulary item 884,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+886,Review candidate,,,Common vocabulary item 885,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+887,Review candidate,,,Common vocabulary item 886,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+888,Review candidate,,,Common vocabulary item 887,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+889,Review candidate,,,Common vocabulary item 888,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+890,Review candidate,,,Common vocabulary item 889,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+891,Review candidate,,,Common vocabulary item 890,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+892,Review candidate,,,Common vocabulary item 891,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+893,Review candidate,,,Common vocabulary item 892,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+894,Review candidate,,,Common vocabulary item 893,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+895,Review candidate,,,Common vocabulary item 894,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+896,Review candidate,,,Common vocabulary item 895,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+897,Review candidate,,,Common vocabulary item 896,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+898,Review candidate,,,Common vocabulary item 897,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+899,Review candidate,,,Common vocabulary item 898,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+900,Review candidate,,,Common vocabulary item 899,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+901,Review candidate,,,Common vocabulary item 900,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+902,Review candidate,,,Common vocabulary item 901,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+903,Review candidate,,,Common vocabulary item 902,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+904,Review candidate,,,Common vocabulary item 903,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+905,Review candidate,,,Common vocabulary item 904,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+906,Review candidate,,,Common vocabulary item 905,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+907,Review candidate,,,Common vocabulary item 906,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+908,Review candidate,,,Common vocabulary item 907,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+909,Review candidate,,,Common vocabulary item 908,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+910,Review candidate,,,Common vocabulary item 909,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+911,Review candidate,,,Common vocabulary item 910,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+912,Review candidate,,,Common vocabulary item 911,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+913,Review candidate,,,Common vocabulary item 912,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+914,Review candidate,,,Common vocabulary item 913,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+915,Review candidate,,,Common vocabulary item 914,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+916,Review candidate,,,Common vocabulary item 915,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+917,Review candidate,,,Common vocabulary item 916,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+918,Review candidate,,,Common vocabulary item 917,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+919,Review candidate,,,Common vocabulary item 918,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+920,Review candidate,,,Common vocabulary item 919,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+921,Review candidate,,,Common vocabulary item 920,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+922,Review candidate,,,Common vocabulary item 921,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+923,Review candidate,,,Common vocabulary item 922,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+924,Review candidate,,,Common vocabulary item 923,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+925,Review candidate,,,Common vocabulary item 924,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+926,Review candidate,,,Common vocabulary item 925,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+927,Review candidate,,,Common vocabulary item 926,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+928,Review candidate,,,Common vocabulary item 927,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+929,Review candidate,,,Common vocabulary item 928,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+930,Review candidate,,,Common vocabulary item 929,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+931,Review candidate,,,Common vocabulary item 930,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+932,Review candidate,,,Common vocabulary item 931,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+933,Review candidate,,,Common vocabulary item 932,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+934,Review candidate,,,Common vocabulary item 933,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+935,Review candidate,,,Common vocabulary item 934,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+936,Review candidate,,,Common vocabulary item 935,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+937,Review candidate,,,Common vocabulary item 936,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+938,Review candidate,,,Common vocabulary item 937,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+939,Review candidate,,,Common vocabulary item 938,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+940,Review candidate,,,Common vocabulary item 939,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+941,Review candidate,,,Common vocabulary item 940,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+942,Review candidate,,,Common vocabulary item 941,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+943,Review candidate,,,Common vocabulary item 942,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+944,Review candidate,,,Common vocabulary item 943,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+945,Review candidate,,,Common vocabulary item 944,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+946,Review candidate,,,Common vocabulary item 945,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+947,Review candidate,,,Common vocabulary item 946,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+948,Review candidate,,,Common vocabulary item 947,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+949,Review candidate,,,Common vocabulary item 948,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+950,Review candidate,,,Common vocabulary item 949,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+951,Review candidate,,,Common vocabulary item 950,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+952,Review candidate,,,Common vocabulary item 951,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+953,Review candidate,,,Common vocabulary item 952,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+954,Review candidate,,,Common vocabulary item 953,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+955,Review candidate,,,Common vocabulary item 954,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+956,Review candidate,,,Common vocabulary item 955,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+957,Review candidate,,,Common vocabulary item 956,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+958,Review candidate,,,Common vocabulary item 957,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+959,Review candidate,,,Common vocabulary item 958,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+960,Review candidate,,,Common vocabulary item 959,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+961,Review candidate,,,Common vocabulary item 960,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+962,Review candidate,,,Common vocabulary item 961,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+963,Review candidate,,,Common vocabulary item 962,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+964,Review candidate,,,Common vocabulary item 963,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+965,Review candidate,,,Common vocabulary item 964,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+966,Review candidate,,,Common vocabulary item 965,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+967,Review candidate,,,Common vocabulary item 966,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+968,Review candidate,,,Common vocabulary item 967,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+969,Review candidate,,,Common vocabulary item 968,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+970,Review candidate,,,Common vocabulary item 969,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+971,Review candidate,,,Common vocabulary item 970,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+972,Review candidate,,,Common vocabulary item 971,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+973,Review candidate,,,Common vocabulary item 972,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+974,Review candidate,,,Common vocabulary item 973,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+975,Review candidate,,,Common vocabulary item 974,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+976,Review candidate,,,Common vocabulary item 975,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+977,Review candidate,,,Common vocabulary item 976,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+978,Review candidate,,,Common vocabulary item 977,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+979,Review candidate,,,Common vocabulary item 978,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+980,Review candidate,,,Common vocabulary item 979,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+981,Review candidate,,,Common vocabulary item 980,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+982,Review candidate,,,Common vocabulary item 981,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+983,Review candidate,,,Common vocabulary item 982,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+984,Review candidate,,,Common vocabulary item 983,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+985,Review candidate,,,Common vocabulary item 984,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+986,Review candidate,,,Common vocabulary item 985,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+987,Review candidate,,,Common vocabulary item 986,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+988,Review candidate,,,Common vocabulary item 987,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+989,Review candidate,,,Common vocabulary item 988,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+990,Review candidate,,,Common vocabulary item 989,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+991,Review candidate,,,Common vocabulary item 990,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+992,Review candidate,,,Common vocabulary item 991,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+993,Review candidate,,,Common vocabulary item 992,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+994,Review candidate,,,Common vocabulary item 993,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+995,Review candidate,,,Common vocabulary item 994,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+996,Review candidate,,,Common vocabulary item 995,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+997,Review candidate,,,Common vocabulary item 996,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+998,Review candidate,,,Common vocabulary item 997,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+999,Review candidate,,,Common vocabulary item 998,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
+1000,Review candidate,,,Common vocabulary item 999,needs_native_review,Reserved slot for verified Santali vocabulary. Do not treat as a translation.
