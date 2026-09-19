@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open SAIR — Open Santali AI Research Multimodal Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Ol+Chiki:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --primary-light: #dbeafe;
+      --accent: #f59e0b;
+      --accent-dark: #d97706;
+      --accent-light: #fef3c7;
+      --santali-red: #dc2626;
+      --santali-green: #059669;
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --radius: 12px;
+      --font-olchiki: 'Noto Sans Ol Chiki', 'Inter', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ol-chiki-font {
+      font-family: var(--font-olchiki);
+      letter-spacing: 0.5px;
+    }
+
+    /* Header & Navigation */
+    header {
+      background: rgba(30, 41, 59, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--card-border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 0.85rem 2rem;
+    }
+
+    .header-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .logo-badge {
+      background: linear-gradient(135deg, #f59e0b, #dc2626);
+      color: white;
+      font-weight: 800;
+      font-size: 1.25rem;
+      padding: 0.4rem 0.85rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+      font-family: var(--font-olchiki);
+    }
+
+    .logo-text h1 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .logo-text p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(5, 150, 105, 0.15);
+      border: 1px solid rgba(5, 150, 105, 0.4);
+      color: #34d399;
+      padding: 0.3rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background: #10b981;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #10b981;
+    }
+
+    /* Tabs */
+    .tabs-nav {
+      max-width: 1400px;
+      margin: 1rem auto 0;
+      padding: 0 2rem;
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.75rem 1.25rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 8px 8px 0 0;
+      border-bottom: 2px solid transparent;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .tab-btn.active {
+      color: #60a5fa;
+      border-bottom: 2px solid #60a5fa;
+      background: rgba(96, 165, 250, 0.08);
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1400px;
+      margin: 1.5rem auto;
+      padding: 0 2rem;
+      flex: 1;
+      width: 100%;
+    }
+
+    .tab-panel {
+      display: none;
+      animation: fadeIn 0.25s ease forwards;
+    }
+
+    .tab-panel.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Cards & Layout */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: #f1f5f9;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    /* Form Controls */
+    label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.4rem;
+    }
+
+    select, input[type="text"], textarea {
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: var(--text);
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    select:focus, input[type="text"]:focus, textarea:focus {
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.7rem 1.4rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-primary {
+      background: #2563eb;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #1d4ed8;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+    }
+
+    .btn-secondary {
+      background: #334155;
+      color: #f8fafc;
+    }
+
+    .btn-secondary:hover {
+      background: #475569;
+    }
+
+    .btn-sm {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.75rem;
+    }
+
+    /* Virtual Keyboard */
+    .keyboard-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .key-btn {
+      background: #1e293b;
+      border: 1px solid #475569;
+      color: #f8fafc;
+      padding: 0.65rem 0.2rem;
+      border-radius: 8px;
+      font-size: 1.15rem;
+      font-family: var(--font-olchiki);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s;
+    }
+
+    .key-btn:hover {
+      background: #2563eb;
+      border-color: #3b82f6;
+      transform: translateY(-2px);
+    }
+
+    .key-btn .key-sub {
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      font-family: 'Inter', sans-serif;
+      margin-top: 0.2rem;
+    }
+
+    .key-btn.modifier-key {
+      background: #312e81;
+      border-color: #4f46e5;
+    }
+
+    .key-btn.modifier-key:hover {
+      background: #4338ca;
+    }
+
+    /* Result Box */
+    .result-box {
+      background: #0b1120;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-top: 1rem;
+      font-family: var(--font-olchiki);
+      font-size: 1.1rem;
+      line-height: 1.6;
+      position: relative;
+    }
+
+    .result-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #1e293b;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Pronoun Matrix Widget */
+    .pronoun-selector {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .pill-radio {
+      display: inline-flex;
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 0.25rem;
+    }
+
+    .pill-radio button {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.45rem 1rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .pill-radio button.active {
+      background: #2563eb;
+      color: white;
+    }
+
+    .pronoun-hero-card {
+      background: linear-gradient(135deg, rgba(37, 99, 235, 0.15), rgba(245, 158, 11, 0.15));
+      border: 1px solid #3b82f6;
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .pronoun-big-glyph {
+      font-size: 3.5rem;
+      font-family: var(--font-olchiki);
+      font-weight: 700;
+      color: #fbbf24;
+      margin: 0.5rem 0;
+    }
+
+    /* Data Table */
+    .table-container {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      text-align: left;
+    }
+
+    th, td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    th {
+      background: #0f172a;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .code-badge {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      background: rgba(15, 23, 42, 0.8);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo-area">
+        <div class="logo-badge">ᱚᱞ ᱪᱤᱠᱤ</div>
+        <div class="logo-text">
+          <h1>Open SAIR Studio</h1>
+          <p>Open Santali AI Research — Sovereign Multimodal Intelligence</p>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <span class="status-badge" id="backend-status-pill">
+          <span class="status-dot"></span> Gateway: Connected (:8000)
+        </span>
+        <a href="/docs" target="_blank" class="btn btn-secondary btn-sm" style="text-decoration: none;">API Docs</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="tabs-nav">
+    <button class="tab-btn active" onclick="switchTab('tab-translate')">🌐 Neural Translation</button>
+    <button class="tab-btn" onclick="switchTab('tab-keyboard')">⌨️ Ol Chiki Virtual Keyboard</button>
+    <button class="tab-btn" onclick="switchTab('tab-pronoun')">👥 Pronoun Clusivity Matrix</button>
+    <button class="tab-btn" onclick="switchTab('tab-speech')">🎙️ Speech Studio (ASR & TTS)</button>
+    <button class="tab-btn" onclick="switchTab('tab-ocr')">📜 Archival Manuscript OCR</button>
+    <button class="tab-btn" onclick="switchTab('tab-morphology')">🧩 Agglutinative Morphology Lab</button>
+    <button class="tab-btn" onclick="switchTab('tab-system')">📊 System & Governance</button>
+  </nav>
+
+  <!-- Main Workspace Content -->
+  <main>
+
+    <!-- Tab 1: Neural Translation -->
+    <div id="tab-translate" class="tab-panel active">
+      <div class="grid-2">
+        <!-- Input Card -->
+        <div class="card">
+          <div class="card-title">
+            <span>Source Text</span>
+          </div>
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 0.85rem;">
+            <select id="trans-src-lang" style="flex: 1;">
+              <option value="eng">English (Latin)</option>
+              <option value="sat">Santali (Ol Chiki)</option>
+              <option value="ben">Bengali (বাংলা)</option>
+            </select>
+            <button class="btn btn-secondary btn-sm" onclick="swapLanguages()">⇄ Swap</button>
+          </div>
+          <textarea id="trans-input-text" placeholder="Enter text to translate..." class="ol-chiki-font">We read books in school.</textarea>
+          
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+            <div style="display: flex; gap: 0.5rem;">
+              <button class="btn btn-secondary btn-sm" onclick="insertSample('We read books in school.')">Sample 1</button>
+              <button class="btn btn-secondary btn-sm" onclick="insertSample('ᱥᱟᱱᱛᱟᱲᱤ ᱯᱟᱹᱨᱥᱤ ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭᱟ᱾')">Sample 2</button>
+            </div>
+            <button class="btn btn-primary" onclick="executeTranslation()" id="trans-btn">
+              <span>Translate</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Output Card -->
+        <div class="card">
+          <div class="card-title">
+            <span>Translated Output</span>
+          </div>
+          <div style="margin-bottom: 0.85rem;">
+            <select id="trans-tgt-lang">
+              <option value="sat">Santali (Ol Chiki)</option>
+              <option value="ben">Bengali (বাংলা)</option>
+              <option value="eng">English (Latin)</option>
+            </select>
+          </div>
+          <div class="result-box" id="trans-result-box">
+            <div class="result-header">
+              <span id="trans-meta">Ready</span>
+              <button class="btn btn-secondary btn-sm" onclick="copyToClipboard('trans-output-text')">Copy</button>
+            </div>
+            <div id="trans-output-text" style="min-height: 80px;">ᱥᱟᱱᱛᱟᱲᱤ ᱛᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱦᱩᱭᱮᱱᱟ᱾</div>
+          </div>
+          
+          <div style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted); background: #0f172a; padding: 0.75rem; border-radius: 8px;">
+            💡 <strong>Clusivity Tip:</strong> When translating "We", Santali distinguishes whether the listener is included (<strong>ᱟᱵᱚ</strong> abo / <strong>ᱟᱞᱟᱝ</strong> alaṅ) or excluded (<strong>ᱟᱞᱮ</strong> ale / <strong>ᱟᱞᱤᱧ</strong> aliń). Use the <em>Pronoun Matrix</em> tab to inspect exact forms.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 2: Ol Chiki Virtual Keyboard -->
+    <div id="tab-keyboard" class="tab-panel">
+      <div class="card">
+        <div class="card-title">
+          <span>⌨️ Native Ol Chiki Virtual Keyboard (Pandit Raghunath Murmu Layout)</span>
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Click keys below to type directly in native Unicode Ol Chiki (U+1C50 to U+1C7F). Diacritics and checked consonants are automatically bound canonically.
+        </p>
+
+        <textarea id="keyboard-output" class="ol-chiki-font" style="font-size: 1.3rem; min-height: 100px;" placeholder="Click keys below or type here..."></textarea>
+        
+        <div style="display: flex; gap: 0.5rem; margin-top: 0.75rem; justify-content: flex-end;">
+          <button class="btn btn-secondary btn-sm" onclick="clearKeyboard()">Clear</button>
+          <button class="btn btn-secondary btn-sm" onclick="copyToClipboard('keyboard-output')">Copy Text</button>
+          <button class="btn btn-primary btn-sm" onclick="sendKeyboardToTranslator()">Send to Translator ➔</button>
+        </div>
+
+        <!-- 30 Base Letter Matrix -->
+        <h4 style="margin-top: 1.25rem; font-size: 0.85rem; color: #94a3b8; text-transform: uppercase;">Core 30-Letter Matrix</h4>
+        <div class="keyboard-grid" id="main-keyboard-grid">
+          <!-- Dynamically populated by JS -->
+        </div>
+
+        <!-- Modifiers, Diacritics, Punctuation -->
+        <h4 style="margin-top: 1.25rem; font-size: 0.85rem; color: #94a3b8; text-transform: uppercase;">Modifiers, Glottals & Punctuation</h4>
+        <div class="keyboard-grid" id="modifiers-keyboard-grid" style="grid-template-columns: repeat(8, 1fr);">
+          <!-- Dynamically populated by JS -->
+        </div>
+
+        <!-- Digits -->
+        <h4 style="margin-top: 1.25rem; font-size: 0.85rem; color: #94a3b8; text-transform: uppercase;">Ol Chiki Numerals (᱐ - ᱙)</h4>
+        <div class="keyboard-grid" id="digits-keyboard-grid" style="grid-template-columns: repeat(10, 1fr);">
+          <!-- Dynamically populated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 3: Pronoun Matrix & Clusivity Explorer -->
+    <div id="tab-pronoun" class="tab-panel">
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">
+            <span>👥 Interactive Pronoun Clusivity Disambiguator</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+            Santali divides the first-person plural into <strong>Inclusive</strong> (speaker + listener) and <strong>Exclusive</strong> (speaker + others, excluding listener) across Singular, Dual, and Plural.
+          </p>
+
+          <label>1. How many individuals are performing the action?</label>
+          <div class="pill-radio" style="margin-bottom: 1rem;">
+            <button id="btn-count-2" class="active" onclick="setPronounCount(2)">Two People (Dual)</button>
+            <button id="btn-count-3" onclick="setPronounCount(3)">Three or More (Plural)</button>
+          </div>
+
+          <label>2. Is the person you are speaking to (the listener) included?</label>
+          <div class="pill-radio" style="margin-bottom: 1.5rem;">
+            <button id="btn-incl-true" class="active" onclick="setPronounListener(true)">YES (Inclusive)</button>
+            <button id="btn-incl-false" onclick="setPronounListener(false)">NO (Exclusive)</button>
+          </div>
+
+          <div class="pronoun-hero-card">
+            <span style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: #93c5fd;" id="pronoun-card-header">1st Person Dual Inclusive</span>
+            <div class="pronoun-big-glyph" id="pronoun-hero-glyph">ᱟᱞᱟᱝ</div>
+            <div style="font-size: 1.2rem; font-weight: 600; color: #f8fafc;" id="pronoun-hero-translit">alaṅ</div>
+            <div style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-muted);" id="pronoun-hero-desc">We two (you and I)</div>
+            <div style="margin-top: 0.75rem; display: flex; justify-content: center; gap: 0.5rem;">
+              <span class="code-badge" id="pronoun-hero-gloss">Gloss: 1DU.INCL</span>
+              <span class="code-badge" id="pronoun-hero-bengali">বাংলা: আমরা দুজন (তুমি ও আমি)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <span>Exhaustive Santali Pronoun Matrix Table</span>
+          </div>
+          <div class="table-container" style="max-height: 480px; overflow-y: auto;">
+            <table id="pronoun-full-table">
+              <thead>
+                <tr>
+                  <th>Ol Chiki</th>
+                  <th>Latin</th>
+                  <th>Person / Num</th>
+                  <th>Clusivity</th>
+                  <th>Clitic</th>
+                  <th>English</th>
+                </tr>
+              </thead>
+              <tbody id="pronoun-tbody">
+                <!-- Populated dynamically via /api/v1/pronouns/all -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 4: Speech Studio (ASR & TTS) -->
+    <div id="tab-speech" class="tab-panel">
+      <div class="grid-2">
+        <!-- TTS Card -->
+        <div class="card">
+          <div class="card-title">
+            <span>🗣️ Text-to-Speech (VITS Neural Vocoder)</span>
+          </div>
+          <label>Ol Chiki Text to Synthesize</label>
+          <input type="text" id="tts-input-text" value="ᱯᱚᱸᱰᱮᱛ ᱨᱟᱹᱜᱷᱩᱱᱟᱛᱷ ᱢᱩᱨᱢᱩ" class="ol-chiki-font" style="font-size: 1.1rem; margin-bottom: 1rem;">
+          
+          <div class="grid-2" style="margin-bottom: 1rem;">
+            <div>
+              <label>Speaking Rate: <span id="rate-val">1.0x</span></label>
+              <input type="range" id="tts-rate" min="0.5" max="1.5" step="0.1" value="1.0" oninput="document.getElementById('rate-val').innerText = this.value + 'x'">
+            </div>
+            <div>
+              <label>Pitch (F0) Scale: <span id="pitch-val">1.0x</span></label>
+              <input type="range" id="tts-pitch" min="0.6" max="1.4" step="0.1" value="1.0" oninput="document.getElementById('pitch-val').innerText = this.value + 'x'">
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 0.8rem; color: #34d399;">✓ Mu Ttuddag (ᱸ) Nasalization Gating Active</span>
+            <button class="btn btn-primary" onclick="synthesizeSpeech()">Synthesize Speech</button>
+          </div>
+
+          <div class="result-box" id="tts-result-box" style="margin-top: 1.25rem;">
+            <div class="result-header">
+              <span>TTS Conditioning Telemetry</span>
+              <span id="tts-audio-status">Ready</span>
+            </div>
+            <div id="tts-telemetry" style="font-size: 0.85rem; font-family: 'Inter', sans-serif;">
+              Click 'Synthesize Speech' to calculate phoneme durations and nasalization factors.
+            </div>
+          </div>
+        </div>
+
+        <!-- ASR Card -->
+        <div class="card">
+          <div class="card-title">
+            <span>🎙️ Speech Recognition (Wav2Vec2 / Whisper)</span>
+          </div>
+          <label>Audio Source (16kHz Mono PCM)</label>
+          <select id="asr-sample-select" style="margin-bottom: 1rem;">
+            <option value="sample_1">Sample 1: Native Speaker Utterance (General Greeting)</option>
+            <option value="sample_2">Sample 2: Historical Folkloric Chant (Mayurbhanj Dialect)</option>
+          </select>
+
+          <div style="background: #0f172a; border: 1px dashed var(--card-border); padding: 1.5rem; text-align: center; border-radius: 8px; margin-bottom: 1rem;">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">📊</div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Acoustic Waveform Analysis & Voice Activity Detection</p>
+            <span class="code-badge" style="margin-top: 0.5rem; display: inline-block;">Sub-50ms Glottal Stop Filter: ENABLED</span>
+          </div>
+
+          <button class="btn btn-primary" style="width: 100%;" onclick="runASR()">Transcribe Audio to Ol Chiki</button>
+
+          <div class="result-box" style="margin-top: 1.25rem;">
+            <div class="result-header">
+              <span>ASR Recognized Ol Chiki</span>
+              <span id="asr-confidence">Confidence: --</span>
+            </div>
+            <div id="asr-output" class="ol-chiki-font" style="font-size: 1.2rem;">
+              ᱥᱟᱱᱛᱟᱲᱤ ᱯᱟᱹᱨᱥᱤ ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭᱟ᱾
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 5: Archival Manuscript OCR -->
+    <div id="tab-ocr" class="tab-panel">
+      <div class="card">
+        <div class="card-title">
+          <span>📜 Diacritic-Aware Historical Manuscript OCR Digitizer</span>
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+          Preserves subtle superscript dots (Mu Ttuddag ᱸ) and subscript baseline dots (Gaahlaa Ttuddag ᱹ) on archival palm leaf and vintage paper scans using Sauvola Adaptive Binarization and CRAFT polygon detection.
+        </p>
+
+        <div class="grid-2">
+          <div>
+            <label>Select Archival Manuscript Document</label>
+            <select id="ocr-doc-select" style="margin-bottom: 1rem;">
+              <option value="murmu_1925">Pandit Raghunath Murmu — Original Treatise (1925 Scan)</option>
+              <option value="parsi_journal">Parsi Journal Archive (Historical Ol Chiki Print)</option>
+            </select>
+
+            <div style="background: #0b1120; border: 1px solid var(--card-border); padding: 1.5rem; border-radius: 8px; text-align: center;">
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">📄</div>
+              <div style="font-weight: 600;">manuscript_sample_1925.png</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">Sauvola Binarization: k=0.2, R=128 | Vertical Diacritic Expansion: +18%</div>
+            </div>
+
+            <button class="btn btn-primary" style="margin-top: 1rem; width: 100%;" onclick="runOCR()">Execute OCR Digitization</button>
+          </div>
+
+          <div>
+            <label>Recognized Text & Bounding Boxes</label>
+            <div class="result-box" style="margin-top: 0; min-height: 200px;">
+              <div class="result-header">
+                <span id="ocr-meta">Status: Ready</span>
+                <button class="btn btn-secondary btn-sm" onclick="copyToClipboard('ocr-output')">Copy</button>
+              </div>
+              <div id="ocr-output" style="white-space: pre-line; font-size: 1.25rem; line-height: 1.8;">
+                ᱯᱚᱸᱰᱮᱛ ᱨᱟᱹᱜᱷᱩᱱᱟᱛᱷ ᱢᱩᱨᱢᱩ
+                ᱚᱞ ᱪᱤᱠᱤ ᱞᱤᱯᱤ ᱨᱮᱱᱟᱜ ᱤᱛᱤᱦᱟᱹᱥ᱾
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 6: Agglutinative Morphology Lab -->
+    <div id="tab-morphology" class="tab-panel">
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">
+            <span>🧩 Agglutinative Infixation & Glottal Deglottalization</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Test reciprocal <strong>-p-</strong> infixation and unreleased checked consonant deglottalization (*Ahad* ᱽ).
+          </p>
+
+          <label>Santali Verb Root (in Ol Chiki)</label>
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+            <input type="text" id="morph-verb-input" value="ᱫᱟᱞ" class="ol-chiki-font" style="font-size: 1.1rem;">
+            <button class="btn btn-primary" onclick="analyzeVerb()">Analyze</button>
+          </div>
+
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem;">
+            <button class="btn btn-secondary btn-sm" onclick="setMorphVerb('ᱫᱟᱞ')">ᱫᱟᱞ (dal: strike)</button>
+            <button class="btn btn-secondary btn-sm" onclick="setMorphVerb('ᱧᱮᱞ')">ᱧᱮᱞ (ñel: see)</button>
+            <button class="btn btn-secondary btn-sm" onclick="setMorphVerb('ᱜᱚᱪ')">ᱜᱚᱪ (goc': kill)</button>
+          </div>
+
+          <div class="result-box" style="margin-top: 0;">
+            <div class="result-header">
+              <span>Morphological Decomposition</span>
+              <span class="code-badge" id="morph-gloss">Gloss: --</span>
+            </div>
+            <div id="morph-analysis-result" style="font-family: 'Inter', sans-serif; font-size: 0.9rem; line-height: 1.6;">
+              Enter a verb and click 'Analyze' to view infixation patterns.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <span>Checked Consonant Deglottalization (*Keched Arang*)</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Checked stops are unreleased glottals. When followed by **Ahad** (ᱽ), they soften into released voiced plosives:
+          </p>
+
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Checked Stop</th>
+                  <th>With Ahad (ᱽ)</th>
+                  <th>Phonetic IPA</th>
+                  <th>Voiced Sound</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="ol-chiki-font" style="font-size: 1.2rem;">ᱜ (ag)</td>
+                  <td class="ol-chiki-font" style="font-size: 1.2rem; color: #fbbf24;">ᱜᱽ</td>
+                  <td>/g/</td>
+                  <td>Voiced Velar Plosive</td>
+                </tr>
+                <tr>
+                  <td class="ol-chiki-font" style="font-size: 1.2rem;">ᱡ (aaj)</td>
+                  <td class="ol-chiki-font" style="font-size: 1.2rem; color: #fbbf24;">ᱡᱽ</td>
+                  <td>/ɟ/ or /j/</td>
+                  <td>Voiced Palatal Plosive</td>
+                </tr>
+                <tr>
+                  <td class="ol-chiki-font" style="font-size: 1.2rem;">ᱫ (ud)</td>
+                  <td class="ol-chiki-font" style="font-size: 1.2rem; color: #fbbf24;">ᱫᱽ</td>
+                  <td>/d/</td>
+                  <td>Voiced Dental Plosive</td>
+                </tr>
+                <tr>
+                  <td class="ol-chiki-font" style="font-size: 1.2rem;">ᱵ (ob)</td>
+                  <td class="ol-chiki-font" style="font-size: 1.2rem; color: #fbbf24;">ᱵᱽ</td>
+                  <td>/b/</td>
+                  <td>Voiced Bilabial Plosive</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 7: System & Governance -->
+    <div id="tab-system" class="tab-panel">
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">
+            <span>📊 Live Telemetry & Model Infrastructure</span>
+          </div>
+          <div class="table-container">
+            <table>
+              <tbody>
+                <tr>
+                  <td><strong>NMT Translation Model</strong></td>
+                  <td><span class="code-badge">facebook/nllb-200-distilled-600M</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Speech Recognition (ASR)</strong></td>
+                  <td><span class="code-badge">Whisper Small + Wav2Vec2 XLSR</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Speech Synthesis (TTS)</strong></td>
+                  <td><span class="code-badge">VITS Neural Vocoder (Nasal Gated)</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Archival OCR Model</strong></td>
+                  <td><span class="code-badge">Sauvola + CRAFT + ResNet-BiLSTM-CTC</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Edge Runtime</strong></td>
+                  <td><span class="code-badge">ONNX Runtime / INT8 Quantized</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Queue Broker</strong></td>
+                  <td><span class="code-badge">Redis / Celery GPU Worker Pool</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <span>🛡️ Indigenous Data Sovereignty (CARE & OCAP)</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1rem;">
+            Open SAIR adheres to the <strong>CARE Principles for Indigenous Data Governance</strong> (Collective Benefit, Authority to Control, Responsibility, and Ethics) and <strong>OCAP</strong> (Ownership, Control, Access, Possession).
+          </p>
+          <ul style="font-size: 0.85rem; color: var(--text-muted); padding-left: 1.25rem; line-height: 1.7;">
+            <li>Zero proprietary vendor lock-in; 100% self-hostable open-source stack.</li>
+            <li>Offline on-device inference for low-connectivity rural communities in Jharkhand, Odisha, and West Bengal.</li>
+            <li>Cultural heritage safeguarding with Santali community-in-the-loop oversight.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Open SAIR (Open Santali AI Research) — Dedicated to the preservation and sovereignty of Santali and the Ol Chiki script.</p>
+    <p style="margin-top: 0.35rem; color: #64748b;">Honoring the legacy of Pandit Raghunath Murmu (1905–1982) | Licensed under Apache 2.0</p>
+  </footer>
+
+  <!-- Application Logic -->
+  <script>
+    // Tab Switching
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    }
+
+    function swapLanguages() {
+      const src = document.getElementById('trans-src-lang');
+      const tgt = document.getElementById('trans-tgt-lang');
+      const temp = src.value;
+      src.value = tgt.value;
+      tgt.value = temp;
+    }
+
+    function insertSample(text) {
+      document.getElementById('trans-input-text').value = text;
+    }
+
+    function copyToClipboard(elementId) {
+      const el = document.getElementById(elementId);
+      const text = el.value !== undefined ? el.value : el.innerText;
+      navigator.clipboard.writeText(text);
+      alert('Copied to clipboard!');
+    }
+
+    // Translation API Call
+    async function executeTranslation() {
+      const text = document.getElementById('trans-input-text').value.trim();
+      const src = document.getElementById('trans-src-lang').value;
+      const tgt = document.getElementById('trans-tgt-lang').value;
+      const btn = document.getElementById('trans-btn');
+      const output = document.getElementById('trans-output-text');
+      const meta = document.getElementById('trans-meta');
+
+      if (!text) return;
+      btn.innerText = 'Translating...';
+
+      try {
+        const resp = await fetch('/api/v1/translate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text, src_lang: src, tgt_lang: tgt, num_beams: 5 })
+        });
+        const data = await resp.json();
+        output.innerText = data.translated_text || 'Error in translation';
+        meta.innerText = `Direction: ${data.src_lang} ➔ ${data.tgt_lang} | Beam: ${data.metadata?.beam_size || 5}`;
+      } catch (err) {
+        output.innerText = 'Connection error with Open SAIR gateway.';
+      } finally {
+        btn.innerText = 'Translate';
+      }
+    }
+
+    // Virtual Keyboard Generation
+    const OL_CHIKI_KEYS = [
+      { char: 'ᱚ', name: 'LA /ɔ/' },
+      { char: 'ᱛ', name: 'AT /t/' },
+      { char: 'ᱜ', name: 'AG /k̚ˀ/' },
+      { char: 'ᱝ', name: 'ANG /ŋ/' },
+      { char: 'ᱞ', name: 'AL /l/' },
+      { char: 'ᱟ', name: 'LAA /a/' },
+      { char: 'ᱠ', name: 'AAK /k/' },
+      { char: 'ᱡ', name: 'AAJ /c̚ˀ/' },
+      { char: 'ᱢ', name: 'AAM /m/' },
+      { char: 'ᱣ', name: 'AAW /w/' },
+      { char: 'ᱤ', name: 'LI /i/' },
+      { char: 'ᱥ', name: 'IS /s/' },
+      { char: 'ᱦ', name: 'IH /h/' },
+      { char: 'ᱧ', name: 'INY /ɲ/' },
+      { char: 'ᱨ', name: 'IR /r/' },
+      { char: 'ᱩ', name: 'LU /u/' },
+      { char: 'ᱪ', name: 'UC /c/' },
+      { char: 'ᱫ', name: 'UD /t̚ˀ/' },
+      { char: 'ᱬ', name: 'UNN /ɳ/' },
+      { char: 'ᱭ', name: 'UY /j/' },
+      { char: 'ᱮ', name: 'LE /e/' },
+      { char: 'ᱯ', name: 'EP /p/' },
+      { char: 'ᱰ', name: 'EDD /ɖ/' },
+      { char: 'ᱱ', name: 'EN /n/' },
+      { char: 'ᱲ', name: 'ERR /ɽ/' },
+      { char: 'ᱳ', name: 'LO /o/' },
+      { char: 'ᱴ', name: 'OTT /ʈ/' },
+      { char: 'ᱵ', name: 'OB /p̚ˀ/' },
+      { char: 'ᱶ', name: 'OV /w̃/' },
+      { char: 'ᱷ', name: 'OH /ʰ/' }
+    ];
+
+    const MODIFIER_KEYS = [
+      { char: 'ᱸ', name: 'Mu (Nasal)' },
+      { char: 'ᱹ', name: 'Gaahlaa (Low)' },
+      { char: 'ᱺ', name: 'Mu-Gaahlaa' },
+      { char: 'ᱻ', name: 'Relaa (Length)' },
+      { char: 'ᱼ', name: 'Phaarkaa' },
+      { char: 'ᱽ', name: 'Ahad (Soft)' },
+      { char: '᱾', name: 'Mucaad (Danda)' },
+      { char: '᱿', name: 'Dbl Mucaad' }
+    ];
+
+    const DIGIT_KEYS = ['᱐', '᱑', '᱒', '᱓', '᱔', '᱕', '᱖', '᱗', '᱘', '᱙'];
+
+    function initKeyboard() {
+      const mainGrid = document.getElementById('main-keyboard-grid');
+      OL_CHIKI_KEYS.forEach(k => {
+        const btn = document.createElement('button');
+        btn.className = 'key-btn';
+        btn.innerHTML = `<span>${k.char}</span><span class="key-sub">${k.name}</span>`;
+        btn.onclick = () => typeKey(k.char);
+        mainGrid.appendChild(btn);
+      });
+
+      const modGrid = document.getElementById('modifiers-keyboard-grid');
+      MODIFIER_KEYS.forEach(k => {
+        const btn = document.createElement('button');
+        btn.className = 'key-btn modifier-key';
+        btn.innerHTML = `<span>${k.char}</span><span class="key-sub">${k.name}</span>`;
+        btn.onclick = () => typeKey(k.char);
+        modGrid.appendChild(btn);
+      });
+
+      const digGrid = document.getElementById('digits-keyboard-grid');
+      DIGIT_KEYS.forEach((d, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'key-btn';
+        btn.innerHTML = `<span>${d}</span><span class="key-sub">${i}</span>`;
+        btn.onclick = () => typeKey(d);
+        digGrid.appendChild(btn);
+      });
+    }
+
+    function typeKey(char) {
+      const ta = document.getElementById('keyboard-output');
+      ta.value += char;
+      ta.focus();
+    }
+
+    function clearKeyboard() {
+      document.getElementById('keyboard-output').value = '';
+    }
+
+    function sendKeyboardToTranslator() {
+      const text = document.getElementById('keyboard-output').value;
+      if (!text) return;
+      document.getElementById('trans-input-text').value = text;
+      document.getElementById('trans-src-lang').value = 'sat';
+      document.getElementById('trans-tgt-lang').value = 'eng';
+      switchTab('tab-translate');
+      document.querySelector('.tab-btn').classList.remove('active');
+      document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    }
+
+    // Pronoun Matrix Logic
+    let currentPronounCount = 2;
+    let currentPronounListener = true;
+
+    function setPronounCount(cnt) {
+      currentPronounCount = cnt;
+      document.getElementById('btn-count-2').classList.toggle('active', cnt === 2);
+      document.getElementById('btn-count-3').classList.toggle('active', cnt >= 3);
+      updatePronounCard();
+    }
+
+    function setPronounListener(incl) {
+      currentPronounListener = incl;
+      document.getElementById('btn-incl-true').classList.toggle('active', incl === true);
+      document.getElementById('btn-incl-false').classList.toggle('active', incl === false);
+      updatePronounCard();
+    }
+
+    async function updatePronounCard() {
+      try {
+        const resp = await fetch('/api/v1/morphology/pronoun', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ count: currentPronounCount, includes_listener: currentPronounListener })
+        });
+        const d = await resp.json();
+        document.getElementById('pronoun-card-header').innerText = `1st Person ${d.number === 'DU' ? 'Dual' : 'Plural'} ${d.clusivity === 'INCL' ? 'Inclusive' : 'Exclusive'}`;
+        document.getElementById('pronoun-hero-glyph').innerText = d.ol_chiki;
+        document.getElementById('pronoun-hero-translit').innerText = d.latin_translit;
+        document.getElementById('pronoun-hero-desc').innerText = d.english_explanation;
+        document.getElementById('pronoun-hero-gloss').innerText = `Gloss: ${d.gloss}`;
+        document.getElementById('pronoun-hero-bengali').innerText = `বাংলা: ${d.bengali_explanation}`;
+      } catch (err) {
+        console.error(err);
+      }
+    }
+
+    async function loadAllPronouns() {
+      try {
+        const resp = await fetch('/api/v1/pronouns/all');
+        const rows = await resp.json();
+        const tbody = document.getElementById('pronoun-tbody');
+        tbody.innerHTML = '';
+        rows.forEach(r => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td class="ol-chiki-font" style="font-size: 1.1rem; font-weight: 600; color: #fbbf24;">${r["Ol Chiki"]}</td>
+            <td><strong>${r["Translit"]}</strong></td>
+            <td>${r["Person"]} / ${r["Number"]}</td>
+            <td><span class="code-badge">${r["Clusivity"]}</span></td>
+            <td>${r["Subject Clitic"] || '—'}</td>
+            <td>${r["English"]}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      } catch (err) {
+        console.error(err);
+      }
+    }
+
+    // TTS Function
+    async function synthesizeSpeech() {
+      const text = document.getElementById('tts-input-text').value;
+      const rate = parseFloat(document.getElementById('tts-rate').value);
+      const pitch = parseFloat(document.getElementById('tts-pitch').value);
+      const tele = document.getElementById('tts-telemetry');
+      const status = document.getElementById('tts-audio-status');
+
+      status.innerText = 'Synthesizing...';
+      try {
+        const resp = await fetch('/api/v1/tts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text, speaking_rate: rate, pitch_scale: pitch })
+        });
+        const d = await resp.json();
+        status.innerText = 'Completed (200 OK)';
+        tele.innerHTML = `
+          <strong>Duration:</strong> ${d.duration_seconds.toFixed(2)} seconds | 
+          <strong>Sample Rate:</strong> ${d.sample_rate} Hz<br>
+          <strong>Total Phonemes:</strong> ${d.phoneme_count} | 
+          <strong>Nasalized Frames Gated:</strong> ${d.nasalized_phonemes_count} (via Mu Ttuddag ᱸ)
+        `;
+      } catch (e) {
+        status.innerText = 'Error';
+      }
+    }
+
+    // ASR Function
+    async function runASR() {
+      const output = document.getElementById('asr-output');
+      const conf = document.getElementById('asr-confidence');
+      conf.innerText = 'Transcribing...';
+      try {
+        const resp = await fetch('/api/v1/asr', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ detect_glottal_stops: true })
+        });
+        const d = await resp.json();
+        output.innerText = d.transcription;
+        conf.innerText = `Confidence: ${(d.confidence * 100).toFixed(1)}% | Glottals: ${d.glottal_stops_detected}`;
+      } catch (e) {
+        conf.innerText = 'ASR Error';
+      }
+    }
+
+    // OCR Function
+    async function runOCR() {
+      const output = document.getElementById('ocr-output');
+      const meta = document.getElementById('ocr-meta');
+      meta.innerText = 'Processing manuscript...';
+      try {
+        const resp = await fetch('/api/v1/ocr', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ expand_diacritic_bounds: true })
+        });
+        const d = await resp.json();
+        output.innerText = d.full_text;
+        meta.innerText = `Lines: ${d.total_lines} | Diacritics Preserved: ${d.diacritics_preserved ? 'YES' : 'NO'}`;
+      } catch (e) {
+        meta.innerText = 'OCR Error';
+      }
+    }
+
+    // Morphology Verb Analyzer
+    function setMorphVerb(v) {
+      document.getElementById('morph-verb-input').value = v;
+      analyzeVerb();
+    }
+
+    async function analyzeVerb() {
+      const word = document.getElementById('morph-verb-input').value.trim();
+      const res = document.getElementById('morph-analysis-result');
+      const gloss = document.getElementById('morph-gloss');
+      if (!word) return;
+
+      try {
+        const resp = await fetch('/api/v1/morphology/analyze', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ word })
+        });
+        const d = await resp.json();
+        gloss.innerText = `Gloss: ${d.gloss}`;
+        res.innerHTML = `
+          <strong>Analyzed Root:</strong> <span class="ol-chiki-font" style="font-size: 1.1rem; color: #fbbf24;">${d.root}</span><br>
+          <strong>Reciprocal -p- Form:</strong> <span class="ol-chiki-font" style="font-size: 1.1rem; color: #34d399;">${d.reciprocal_form}</span> (Reciprocal action: "each other")<br>
+          <strong>Deglottalized IPA:</strong> <span class="code-badge">${d.deglottalized_phonetics}</span><br>
+          <strong>TAM Aspect Infixes:</strong> ${d.tam_markers.length ? d.tam_markers.join(', ') : 'None / Bare Root'}<br>
+          <strong>Finite Marker (-a):</strong> ${d.finite_marker ? 'Present' : 'Not attached'}
+        `;
+      } catch (e) {
+        res.innerText = 'Error analyzing word';
+      }
+    }
+
+    // Initialize on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      initKeyboard();
+      loadAllPronouns();
+    });
+  </script>
+</body>
+</html>

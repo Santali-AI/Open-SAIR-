@@ -1,0 +1,31 @@
+# Open SAIR Dependency Specifications
+# Core Machine Learning & Multimodal
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+transformers>=4.36.0
+accelerate>=0.25.0
+datasets>=2.15.0
+sentencepiece>=0.1.99
+sacremoses>=0.1.1
+
+# Speech & Audio
+librosa>=0.10.1
+soundfile>=0.12.1
+scipy>=1.11.0
+
+# Vision & OCR
+opencv-python-headless>=4.8.0
+pillow>=10.1.0
+
+# Microservice & Serving
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+celery>=5.3.0
+redis>=5.0.0
+
+# Evaluation & Metrics
+sacrebleu>=2.4.0
+evaluate>=0.4.1
+numpy>=1.24.0
